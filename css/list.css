@@ -1,0 +1,22 @@
+.bg_gray{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.my_img1{
+    width: 20px;
+    height: 20px;
+}
+.my_input{
+    width: 10%;
+    border: 0;
+    outline: none;
+    text-align: center;
+}
+.my_border{
+    border-top-style: dashed;
+}
+.my_img{
+    transition: all .5s;
+}
+.my_img:hover{
+    transform: scale(1.1);
+}

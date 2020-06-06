@@ -1,0 +1,31 @@
+/* css重置 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f5f5f5;
+}
+/* 通用的字号 */
+.my_small{
+    font-size: 0.8rem;
+}
+.headers,.footers{
+    width: 100%;
+}
+@media screen and (min-width:992px){
+    .headers{
+        height: 6rem;
+    }
+    .footers{
+        height: 16rem;
+    }
+}
+@media screen and (max-width:991px){
+    .headers{
+        height: 13rem;
+    }
+    .footers{
+        height: 30rem;
+    }
+}

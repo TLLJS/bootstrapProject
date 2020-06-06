@@ -1,0 +1,30 @@
+.breadcrumb{
+    background-color: transparent;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '>';
+}
+.card{
+    background-color: #e2e3e5!important;
+}
+a{
+    text-decoration: none!important;
+}
+.ahover:hover{
+    background-color: hotpink;
+}
+.my_input{
+    width: 14%;
+    text-align: center;
+}
+.my_button{
+    width: 12%;
+    cursor: pointer;
+}
+.my_img{
+    transition: all .5s;
+    cursor: pointer;
+}
+.my_img:hover{
+    transform: scale(1.1);
+}

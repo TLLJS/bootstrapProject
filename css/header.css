@@ -1,0 +1,9 @@
+/* 面包屑导航 */
+.breadcrumb-item + .breadcrumb-item::before{
+    content:'|';
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+.breadcrumb{
+    background-color: transparent;
+}
